@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.whole{
+    margin-top: 10vh;
+    background-color: beige;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    width: 50%;
+    border-radius: 15%;
+    height: 80vh;
+    
+}
+
+h1{
+    color: red;
+
+}
+.btn{
+    background-color: red !important;
+    
+}
+.btn:hover{
+    
+        background-color: black !important;
+    
+}
+.label:hover{
+     background-color: rgb(255, 242, 242);
+}
+@media screen and (max-width: 475px) {
+    .whole{
+        margin-top: 10vh;
+        background-color: beige;
+        padding-top: 120px;
+        padding-bottom: 70px;
+        width: 100%;
+        border-radius: 15%;
+        height: 80vh;
+        
+    }
+}
